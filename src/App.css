@@ -1,3 +1,10 @@
+.bars {
+  margin-left: 10px;
+  float: right;
+  max-width: 30px;
+  max-height: 30px;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +42,129 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.input-text {
+  height: 100px;
+
+  padding: 10px;
+  box-shadow: 5px 5px #394356;
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+
+.navbar {
+  background-color: #52d6cb;
+  color: #ffffff;
+  font-family: segoe ui;
+  padding-left: 50px;
+  padding: 1px 0px;
+}
+.icon {
+  height: 35px;
+  width: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.note-input-top {
+  margin-top: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: aqua;
+}
+.note-input-bot {
+  margin-top: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+}
+
+/* .container {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+} */
+
+.box {
+  box-shadow: -4px 10px 35px -1px rgba(0, 0, 0, 0.75);
+  min-height: 20rem;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: aqua;
+}
+
+footer {
+  height: 40px;
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.header {
+  text-align: center;
+  font-family: inter;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  color: #ffffff;
+  margin: auto;
+  font-style: italic;
+  background-color: #6150c1;
+}
+
+.title {
+  padding-bottom: 20px;
+}
+
+.btn {
+  border: none;
+  background-color: #00295e;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  box-shadow: 2px 2px 0px #ffffff;
+  margin-bottom: 10px;
+}
+.btns {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+.count-box {
+  background-color: #ffffff;
+  margin: 20px;
+  height: 80px;
+  width: 120px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  border: solid 2px #2c2c2c;
+  border-top: solid 8px #6150c1;
+}
+.count-box:hover {
+  transform: scale(1.05);
+  transition-duration: 0.4s;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
