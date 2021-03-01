@@ -20,6 +20,7 @@ You can see a running version of the application at
 [demo](https://dev.d3pfrhmntkwg6h.amplifyapp.com/).
 
 ## Screenshots
+<img src="./src/screenshot.PNG">
 
 ![VoiceNotes Homepage](/screenshot.PNG 'VoiceNotes Homepage')
 
