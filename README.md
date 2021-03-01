@@ -20,7 +20,7 @@ You can see a running version of the application at
 [demo](https://dev.d3pfrhmntkwg6h.amplifyapp.com/).
 
 ## Screenshot
-
+ 
 <img src="./src/screenshot.PNG">
 
 ## Installation
